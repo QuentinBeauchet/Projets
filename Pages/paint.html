@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/Styles/paint.css" />
+    <script type="module" src="/JavaScript/paint.js" defer></script>
+    <title>Paint</title>
+  </head>
+  <body>
+    <div id="menu">
+      <div id="bouttons">
+        <button id="crayon">Crayon</button>
+        <button id="gomme">Gomme</button>
+        <button id="remplir">Remplir</button>
+        <div id="taille">
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="1"
+            id="slider"
+          />
+          <p id="taille_nbr">Taille: 1</p>
+        </div>
+        <button id="undo">UNDO</button>
+        <button id="redo">REDO</button>
+      </div>
+      <div id="couleurs"></div>
+    </div>
+    <canvas id="feuille" width="1800%" height="850%"></canvas>
+  </body>
+</html>

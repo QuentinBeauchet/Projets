@@ -1,0 +1,28 @@
+#jeu {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#grille_bg {
+  border: 3px solid black;
+  position: absolute;
+  left: 0;
+}
+
+#grille {
+  border: 3px solid black;
+  z-index: -1;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 3rem;
+}
+
+#next_block {
+  border: 3px solid black;
+}

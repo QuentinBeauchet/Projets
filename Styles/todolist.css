@@ -1,0 +1,82 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+#input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 3rem;
+  padding: 1rem 0 0 3rem;
+}
+
+#texte,
+#modification_texte {
+  font-size: 2rem;
+  margin: 0 2rem 0 2rem;
+  height: 2rem;
+}
+
+#modification_texte {
+  margin: 0 1rem 0 1rem;
+  width: 100vw;
+}
+
+#ajout {
+  border-radius: 2rem;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  background-color: gray;
+  font-size: 3rem;
+}
+
+#liste {
+  list-style-type: none;
+  padding: 0 3rem 0 3rem;
+}
+
+.element {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 0 1rem 0;
+  margin: 0.5rem 0 0 0;
+  border: 1px solid rgb(124, 124, 124);
+}
+
+#liste > * > span {
+  margin: 0 1rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+.supprimer,
+.modifier,
+#modification_boutton {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 3px 1px 1px black;
+}
+
+#modification_boutton {
+  margin: 0 1rem 0 auto;
+  background-color: rgba(226, 20, 245, 0.5);
+}
+
+.supprimer {
+  margin: 0 1rem 0 1rem;
+  background-color: rgba(245, 20, 20, 0.5);
+}
+
+.modifier {
+  margin-left: auto;
+  background-color: rgba(178, 245, 20, 0.5);
+}

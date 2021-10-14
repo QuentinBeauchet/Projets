@@ -1,0 +1,43 @@
+body {
+  background-color: #f6f6f6;
+  margin: 0;
+}
+
+#liens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.lien {
+  padding: 2rem;
+  margin: 1rem 1rem 1rem 0;
+  border-radius: 100px;
+  background-color: #ffffff;
+  box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.lien:hover {
+  filter: saturate(50%);
+  background-color: #5865f2;
+  color: #ffffff;
+}
+
+.css {
+  box-shadow: 5px 3px 3px rgba(32, 191, 212, 0.5);
+  /*background-color: #5865f2;*/
+}
+
+.jeu {
+  box-shadow: 5px 3px 3px rgba(237, 42, 255, 0.5);
+}
+
+.js {
+  box-shadow: 5px 3px 3px rgba(168, 89, 243, 0.5);
+}

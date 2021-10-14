@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/Styles/menuderoulant.css" />
+    <title>Menu deroulant</title>
+  </head>
+  <body>
+    <ul id="menu">
+      <li class="lien">Pomme</li>
+      <li class="lien">Poire</li>
+      <li class="lien">Abricot</li>
+      <li class="lien">Orange</li>
+      <li class="lien">Fraise</li>
+      <li class="lien">Prune</li>
+      <li class="lien">Clementine</li>
+      <li class="lien">Raisin</li>
+      <li class="lien">Citron</li>
+      <li class="lien">Pamplemouse</li>
+      <li class="lien">Ananas</li>
+      <li class="lien">Litchi</li>
+      <li class="lien">Mandarine</li>
+      <li class="lien">Myrtille</li>
+      <li class="lien">Framboise</li>
+    </ul>
+  </body>
+  <script>
+    document.getElementById("menu").addEventListener(
+      "wheel",
+      (event) => {
+        document.getElementById("menu").scrollLeft += event.deltaY * 5;
+      },
+      { passive: true }
+    );
+  </script>
+</html>

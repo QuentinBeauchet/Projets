@@ -1,0 +1,76 @@
+:root {
+  --height: 50;
+  --width: 50;
+  --fruit: rgb(118, 216, 118);
+  --snake_body: rgb(240, 159, 38);
+  --snake_head: rgb(216, 134, 11);
+  --empty: rgb(247, 246, 255);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#jeu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cases {
+  display: grid;
+  grid-template-rows: repeat(var(--heigth), 1fr);
+  grid-template-columns: repeat(var(--width), 1fr);
+  width: 45rem;
+  height: 45rem;
+  background-color: var(--empty);
+  border: 3px black solid;
+}
+
+.case {
+  background-color: var(--empty);
+}
+
+#resultat {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  background-color: white;
+  border: 3px solid #f05543;
+  border-radius: 30px;
+  width: 25rem;
+  height: 10rem;
+}
+
+#fruit {
+  border: 1px solid red;
+  border-radius: 30px;
+}
+
+#restart {
+  background-color: rgb(44, 44, 255);
+  color: aliceblue;
+  width: 5rem;
+  height: 2rem;
+  border: 3px white solid;
+  border-radius: 20px;
+}
+
+#text,
+#res {
+  margin: 0;
+}
+
+#text {
+  font-size: 1.8rem;
+}
+
+#res {
+  font-size: 1.2rem;
+}

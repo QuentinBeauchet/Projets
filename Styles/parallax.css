@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.texte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 5rem 2rem 5rem 2rem;
+  background: rgb(199, 199, 199);
+}
+
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-texte {
+  color: white;
+  font-size: 3rem;
+  margin-top: 8rem;
+}
+
+#parallax {
+  font-size: 10rem;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0 2rem 0 2rem;
+  color: white;
+  background: rgb(58, 58, 58);
+}
+
+#bg1 {
+  justify-content: center;
+  background-image: url("/Assets/pole-nord.jpg");
+}
+
+#bg2 {
+  background-image: url("/Assets/favela.jpg");
+}
+
+#bg3 {
+  background-image: url("/Assets/new-york.jpg");
+}
+
+#bg4 {
+  background-image: url("/Assets/maroc.jpg");
+}
+
+#bg5 {
+  background-image: url("/Assets/shangai.jpg");
+}
+
+#bg6 {
+  background-image: url("/Assets/pole-nord.jpg");
+}
